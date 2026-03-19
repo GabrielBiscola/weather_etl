@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated pipeline output
+db/
+data/
+logs/
+
+# Environment variables (sensitive data, API keys)
+.env
+
+# OS generated files
+.DS_Store        # Mac
+Thumbs.db        # Windows
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.code-workspace
